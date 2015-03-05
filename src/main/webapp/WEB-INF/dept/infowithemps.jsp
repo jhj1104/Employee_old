@@ -30,7 +30,7 @@ loc = ${requestScope.dept.loc } <br>
 %>
 <hr>
 <c:forEach var="e" items="${ requestScope.dept.emps}">
-	empno = ${pageScope.e.empno}, ename = ${pageScope.e.ename }, job = ${pageScope.e.job }<br>
+	empno = ${pageScope.e.empno}, ename = ${pageScope.e.ename }, job = ${pageScope.e.job} <br>
 
 </c:forEach>
 

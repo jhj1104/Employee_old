@@ -29,8 +29,8 @@
 <!-- </bean> -->
 
 
-<!-- <bean id="deptDao" class="webapp.dao.impl.JdbcDeptDao"> -->
-<!-- 	<property name="dateSource" ref="dataSource"/>	 -->
+<!--  <bean id="deptDao" class="webapp.dao.impl.JdbcDeptDao">  -->
+<!--  	<property name="dateSource" ref="dataSource"/>	  -->
 <!-- </bean> -->
 
 <bean id="deptDao" class="webapp.dao.impl.SpringjdbcDeptDao">
